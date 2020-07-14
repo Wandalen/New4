@@ -1,0 +1,42 @@
+
+{
+  "name" : "{:package/lowName:}",
+  "version" : "0.2.0",
+  "description" : "___",
+  "author" : "{:about/full.name:} <{:about/email:}>",
+  "license" : "MIT",
+  "main" : "proto/wtools/___",
+  "files" :
+  [
+    "proto/wtools/___",
+    "proto/wtools/Tools.s"
+  ],
+  "scripts" :
+  {
+    "test" : "wtest .run proto",
+    "docgen" : "wdocgen .build proto"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/{:about/user:}/{:package/name:}.git"
+  },
+  "bugs" :
+  {
+    "url" : "https://github.com/{:about/user:}/{:package/name:}/issues"
+  },
+  "dependencies" :
+  {
+    "wTools" : ""
+  },
+  "devDependencies" :
+  {
+    "wTesting" : "",
+    "eslint" : "7.1.0",
+    "{:package/lowName:}" : "file:."
+  },
+  "keywords" :
+  [
+    "wTools"
+  ]
+}
